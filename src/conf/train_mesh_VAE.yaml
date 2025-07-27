@@ -1,0 +1,32 @@
+hydra:
+  run:
+    dir: /work/artifact/mesh_vae/${target_organ}/${now:%Y-%m-%d}/${now:%H-%M-%S}_${oc.env:GIT_COMMIT_HASH,none-select}
+  sweep:
+    dir: /work/artifact/mesh_vae/${target_organ}/${now:%Y-%m-%d}/${now:%H-%M-%S}_${oc.env:GIT_COMMIT_HASH,none-select}
+    subdir: ${hydra.job.num}
+
+target_organ: "liver"
+template_mesh_path: "/work/3D-CT PLY/${target_organ}.ply"
+commit_id: ${oc.env:GIT_COMMIT_HASH,none-select}
+data_dir: "/work/3D-CT PLY"
+random_seed: 42
+job_id: ${hydra:job.id}
+
+# hyper-parameter
+recon_weight: 1e+6 # alpha in the paper
+sigma_max: 2.0
+hidden_dims:
+  - 300
+augmentation:
+  moving_ratio: 0.01
+
+# dim
+latent_dim: 128
+
+# debugging
+debug_mode: false
+print_summary: true
+
+# wandb
+project_name: "PositionalAndDGFeature_io_same"
+experiment_name: "No Augment"

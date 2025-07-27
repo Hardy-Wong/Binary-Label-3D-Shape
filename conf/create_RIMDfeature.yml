@@ -1,0 +1,7 @@
+hydra:
+  run:
+    dir: /work/artifact/${now:%Y-%m-%d}/${oc.env.GIT_COMMIT_HASH, none-select}
+
+commit_id: ${oc.env.GIT_COMMIT_HASH, none-select} 
+data_dir: "/work/3D-CT PLY"
+template_path: "/work/3D-CT PLY/liver.ply"

@@ -1,0 +1,192 @@
+[2022-09-29 12:09:32,691][__main__][INFO] - job_id: None
+[2022-09-29 12:09:32,693][__main__][INFO] - train_file_names: [PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case108_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case057_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case042_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case138_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case141_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case063_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case005_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case089_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case012_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case131_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case074_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case121_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case091_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case058_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case111_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case014_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case133_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case126_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case119_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case004_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case009_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case015_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case030_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case102_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case109_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case028_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case021_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case093_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case033_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case129_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case134_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case043_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case029_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case027_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case092_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case142_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case097_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case101_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case061_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case122_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case017_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case098_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case145_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case124_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case072_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case064_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case073_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case103_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case069_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case135_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case054_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case031_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case083_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case120_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case106_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case078_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case062_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case105_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case100_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case013_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case040_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case128_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case008_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case136_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case095_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case125_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case060_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case110_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case107_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case139_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case022_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case114_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case018_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case041_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case137_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case026_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case143_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case019_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case118_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case096_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case146_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case112_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case056_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case020_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case067_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case034_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case117_liver_rimd.npy')]
+[2022-09-29 12:09:32,694][__main__][INFO] - train_file_num: 87
+[2022-09-29 12:09:32,694][__main__][INFO] - test_file_names: [PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case006_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case085_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case099_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case047_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case094_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case050_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case144_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case080_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case068_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case132_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case051_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case127_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case049_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case065_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case055_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case046_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case075_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case087_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case090_liver_rimd.npy')]
+[2022-09-29 12:09:32,695][__main__][INFO] - test_file_num: 19
+[2022-09-29 12:09:32,695][__main__][INFO] - val_file_names: [PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case088_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case011_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case077_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case070_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case007_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case113_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case104_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case053_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case130_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case076_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case052_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case010_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case086_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case059_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case039_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case045_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case116_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case035_liver_rimd.npy'), PosixPath('/work/artifact/RIMDfeature/2022-09-26/06-29-50_ddd056b494bf9d00af77c53549e7cc08f23cffe4/case140_liver_rimd.npy')]
+[2022-09-29 12:09:32,695][__main__][INFO] - val_file_num: 19
+[2022-09-29 12:09:37,309][__main__][INFO] - 
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+├─Sequential: 1-1                        [-1, 300]                 --
+|    └─Sequential: 2-1                   [-1, 300]                 --
+|    |    └─Linear: 3-1                  [-1, 300]                 3,589,500
+|    |    └─BatchNorm1d: 3-2             [-1, 300]                 600
+|    |    └─LeakyReLU: 3-3               [-1, 300]                 --
+├─Linear: 1-2                            [-1, 128]                 38,528
+├─Sequential: 1-3                        [-1, 128]                 --
+|    └─Linear: 2-2                       [-1, 128]                 38,528
+|    └─Sigmoid: 2-3                      [-1, 128]                 --
+├─Sequential: 1-4                        [-1, 300]                 --
+|    └─Sequential: 2-4                   [-1, 300]                 --
+|    |    └─Linear: 3-4                  [-1, 300]                 38,700
+|    |    └─BatchNorm1d: 3-5             [-1, 300]                 600
+|    |    └─LeakyReLU: 3-6               [-1, 300]                 --
+├─Sequential: 1-5                        [-1, 11964]               --
+|    └─Linear: 2-5                       [-1, 11964]               3,601,164
+|    └─Tanh: 2-6                         [-1, 11964]               --
+==========================================================================================
+Total params: 7,307,620
+Trainable params: 7,307,620
+Non-trainable params: 0
+Total mult-adds (M): 18.18
+==========================================================================================
+Input size (MB): 1.46
+Forward/backward pass size (MB): 0.10
+Params size (MB): 27.88
+Estimated Total Size (MB): 29.44
+==========================================================================================
+[2022-09-29 12:09:37,465][__main__][INFO] - val_loss: 283798.21875
+[2022-09-29 12:09:37,597][__main__][INFO] - val_loss: 204622.390625
+[2022-09-29 12:09:37,847][__main__][INFO] - val_loss: 163923.53125
+[2022-09-29 12:09:38,089][__main__][INFO] - val_loss: 145616.484375
+[2022-09-29 12:09:38,328][__main__][INFO] - val_loss: 129733.0078125
+[2022-09-29 12:09:38,563][__main__][INFO] - val_loss: 118526.6796875
+[2022-09-29 12:09:38,807][__main__][INFO] - val_loss: 109482.5546875
+[2022-09-29 12:09:39,045][__main__][INFO] - val_loss: 102956.2734375
+[2022-09-29 12:09:39,291][__main__][INFO] - val_loss: 94478.390625
+[2022-09-29 12:09:39,546][__main__][INFO] - val_loss: 87320.0625
+[2022-09-29 12:09:39,783][__main__][INFO] - val_loss: 83040.59375
+[2022-09-29 12:09:40,021][__main__][INFO] - val_loss: 79251.2109375
+[2022-09-29 12:09:40,256][__main__][INFO] - val_loss: 74912.1796875
+[2022-09-29 12:09:40,493][__main__][INFO] - val_loss: 71878.3515625
+[2022-09-29 12:09:40,730][__main__][INFO] - val_loss: 69620.1015625
+[2022-09-29 12:09:40,974][__main__][INFO] - val_loss: 69156.2890625
+[2022-09-29 12:09:41,210][__main__][INFO] - val_loss: 67990.15625
+[2022-09-29 12:09:41,463][__main__][INFO] - val_loss: 67412.5546875
+[2022-09-29 12:09:41,699][__main__][INFO] - val_loss: 68178.2265625
+[2022-09-29 12:09:41,935][__main__][INFO] - val_loss: 68347.0703125
+[2022-09-29 12:09:42,172][__main__][INFO] - val_loss: 69417.6171875
+[2022-09-29 12:09:42,406][__main__][INFO] - val_loss: 67985.78125
+[2022-09-29 12:09:42,643][__main__][INFO] - val_loss: 68152.484375
+[2022-09-29 12:09:42,884][__main__][INFO] - val_loss: 66583.265625
+[2022-09-29 12:09:43,118][__main__][INFO] - val_loss: 67265.28125
+[2022-09-29 12:09:43,362][__main__][INFO] - val_loss: 66113.3125
+[2022-09-29 12:09:43,613][__main__][INFO] - val_loss: 66776.1796875
+[2022-09-29 12:09:43,846][__main__][INFO] - val_loss: 65762.84375
+[2022-09-29 12:09:44,085][__main__][INFO] - val_loss: 65870.3203125
+[2022-09-29 12:09:44,325][__main__][INFO] - val_loss: 66194.8671875
+[2022-09-29 12:09:44,558][__main__][INFO] - val_loss: 66252.78125
+[2022-09-29 12:09:44,790][__main__][INFO] - val_loss: 64871.72265625
+[2022-09-29 12:09:45,033][__main__][INFO] - val_loss: 64317.9375
+[2022-09-29 12:09:45,275][__main__][INFO] - val_loss: 65034.40625
+[2022-09-29 12:09:45,517][__main__][INFO] - val_loss: 65996.7421875
+[2022-09-29 12:09:45,771][__main__][INFO] - val_loss: 65579.6796875
+[2022-09-29 12:09:46,017][__main__][INFO] - val_loss: 65353.046875
+[2022-09-29 12:09:46,252][__main__][INFO] - val_loss: 65057.828125
+[2022-09-29 12:09:46,497][__main__][INFO] - val_loss: 65441.796875
+[2022-09-29 12:09:46,735][__main__][INFO] - val_loss: 63583.76953125
+[2022-09-29 12:09:46,969][__main__][INFO] - val_loss: 63964.39453125
+[2022-09-29 12:09:47,204][__main__][INFO] - val_loss: 64779.30078125
+[2022-09-29 12:09:47,445][__main__][INFO] - val_loss: 64321.4375
+[2022-09-29 12:09:47,682][__main__][INFO] - val_loss: 64635.30859375
+[2022-09-29 12:09:47,929][__main__][INFO] - val_loss: 64679.69921875
+[2022-09-29 12:09:48,163][__main__][INFO] - val_loss: 64087.953125
+[2022-09-29 12:09:48,404][__main__][INFO] - val_loss: 64659.64453125
+[2022-09-29 12:09:48,644][__main__][INFO] - val_loss: 64202.0234375
+[2022-09-29 12:09:48,882][__main__][INFO] - val_loss: 64549.6484375
+[2022-09-29 12:09:49,124][__main__][INFO] - val_loss: 64792.48046875
+[2022-09-29 12:09:49,366][__main__][INFO] - val_loss: 64194.5625
+[2022-09-29 12:09:49,599][__main__][INFO] - val_loss: 64638.58203125
+[2022-09-29 12:09:49,853][__main__][INFO] - val_loss: 63928.15234375
+[2022-09-29 12:09:50,110][__main__][INFO] - val_loss: 64354.41015625
+[2022-09-29 12:09:50,347][__main__][INFO] - val_loss: 64498.13671875
+[2022-09-29 12:09:50,579][__main__][INFO] - val_loss: 63715.90234375
+[2022-09-29 12:09:50,822][__main__][INFO] - val_loss: 64637.66015625
+[2022-09-29 12:09:51,061][__main__][INFO] - val_loss: 64257.74609375
+[2022-09-29 12:09:51,307][__main__][INFO] - val_loss: 63378.10546875
+[2022-09-29 12:09:51,552][__main__][INFO] - val_loss: 64067.94140625
+[2022-09-29 12:09:51,790][__main__][INFO] - val_loss: 64626.80859375
+[2022-09-29 12:09:52,030][__main__][INFO] - val_loss: 64170.67578125
+[2022-09-29 12:09:52,274][__main__][INFO] - val_loss: 64496.08984375
+[2022-09-29 12:09:52,519][__main__][INFO] - val_loss: 64765.9453125
+[2022-09-29 12:09:52,768][__main__][INFO] - val_loss: 64458.546875
+[2022-09-29 12:09:53,011][__main__][INFO] - val_loss: 64485.17578125
+[2022-09-29 12:09:53,257][__main__][INFO] - val_loss: 64014.49609375
+[2022-09-29 12:09:53,497][__main__][INFO] - val_loss: 63581.49609375
+[2022-09-29 12:09:53,734][__main__][INFO] - val_loss: 63892.9296875
+[2022-09-29 12:09:53,978][__main__][INFO] - val_loss: 63842.89453125
+[2022-09-29 12:09:54,219][__main__][INFO] - val_loss: 63285.28125
+[2022-09-29 12:09:54,468][__main__][INFO] - val_loss: 63910.6484375
+[2022-09-29 12:09:54,711][__main__][INFO] - val_loss: 64029.59765625
+[2022-09-29 12:09:54,955][__main__][INFO] - val_loss: 63961.81640625
+[2022-09-29 12:09:55,195][__main__][INFO] - val_loss: 64178.87109375
+[2022-09-29 12:09:55,439][__main__][INFO] - val_loss: 64417.8359375
+[2022-09-29 12:09:55,677][__main__][INFO] - val_loss: 64008.91796875
+[2022-09-29 12:09:55,912][__main__][INFO] - val_loss: 63480.55078125
+[2022-09-29 12:09:56,158][__main__][INFO] - val_loss: 63151.9921875
+[2022-09-29 12:09:56,406][__main__][INFO] - val_loss: 62988.859375
+[2022-09-29 12:09:56,651][__main__][INFO] - val_loss: 63717.58984375
+[2022-09-29 12:09:56,886][__main__][INFO] - val_loss: 63562.05078125
+[2022-09-29 12:09:57,124][__main__][INFO] - val_loss: 64227.28125
+[2022-09-29 12:09:57,357][__main__][INFO] - val_loss: 63940.03125
+[2022-09-29 12:09:57,596][__main__][INFO] - val_loss: 63970.69140625
+[2022-09-29 12:09:57,838][__main__][INFO] - val_loss: 64117.63671875
+[2022-09-29 12:09:58,076][__main__][INFO] - val_loss: 63436.39453125
+[2022-09-29 12:09:58,323][__main__][INFO] - val_loss: 63556.03515625
+[2022-09-29 12:09:58,561][__main__][INFO] - val_loss: 63883.51171875
+[2022-09-29 12:09:58,807][__main__][INFO] - val_loss: 63315.25
+[2022-09-29 12:09:59,048][__main__][INFO] - val_loss: 63433.84375
+[2022-09-29 12:09:59,281][__main__][INFO] - val_loss: 63601.234375
+[2022-09-29 12:09:59,518][__main__][INFO] - val_loss: 63598.6015625
+[2022-09-29 12:09:59,759][__main__][INFO] - val_loss: 63134.86328125
+[2022-09-29 12:10:00,003][__main__][INFO] - val_loss: 63206.6484375
+[2022-09-29 12:10:00,250][__main__][INFO] - val_loss: 62960.1484375
+[2022-09-29 12:10:00,485][__main__][INFO] - val_loss: 63193.9453125
+[2022-09-29 12:10:00,724][__main__][INFO] - val_loss: 63652.30859375
+[2022-09-29 12:10:00,977][__main__][INFO] - val_loss: 63823.78125
+[2022-09-29 12:10:01,219][__main__][INFO] - val_loss: 63217.08984375
+[2022-09-29 12:10:01,454][__main__][INFO] - val_loss: 63845.41015625
+[2022-09-29 12:10:01,691][__main__][INFO] - val_loss: 62950.4453125
+[2022-09-29 12:10:01,932][__main__][INFO] - val_loss: 63029.37890625
+[2022-09-29 12:10:02,167][__main__][INFO] - val_loss: 63333.30078125
+[2022-09-29 12:10:02,404][__main__][INFO] - val_loss: 63430.72265625
+[2022-09-29 12:10:02,644][__main__][INFO] - val_loss: 63667.1328125
+[2022-09-29 12:10:02,879][__main__][INFO] - val_loss: 63335.8828125
+[2022-09-29 12:10:03,127][__main__][INFO] - val_loss: 63586.546875
+[2022-09-29 12:10:03,367][__main__][INFO] - val_loss: 63471.1640625
+[2022-09-29 12:10:03,621][__main__][INFO] - val_loss: 64075.87890625
+[2022-09-29 12:10:03,859][__main__][INFO] - val_loss: 62774.23046875
+[2022-09-29 12:10:04,111][__main__][INFO] - val_loss: 63100.4296875
+[2022-09-29 12:10:04,359][__main__][INFO] - val_loss: 63630.328125
+[2022-09-29 12:10:04,596][__main__][INFO] - val_loss: 63759.6796875
+[2022-09-29 12:10:04,836][__main__][INFO] - val_loss: 63618.203125
+[2022-09-29 12:10:05,078][__main__][INFO] - val_loss: 63290.1015625
+[2022-09-29 12:10:05,335][__main__][INFO] - val_loss: 62676.88671875
+[2022-09-29 12:10:05,578][__main__][INFO] - val_loss: 63617.62109375
+[2022-09-29 12:10:05,821][__main__][INFO] - val_loss: 63079.921875
+[2022-09-29 12:10:06,054][__main__][INFO] - val_loss: 63420.19921875
+[2022-09-29 12:10:06,290][__main__][INFO] - val_loss: 63303.58984375
+[2022-09-29 12:10:06,527][__main__][INFO] - val_loss: 63305.35546875
+[2022-09-29 12:10:06,766][__main__][INFO] - val_loss: 63756.8671875
+[2022-09-29 12:10:07,007][__main__][INFO] - val_loss: 62794.6640625
+[2022-09-29 12:10:07,246][__main__][INFO] - val_loss: 63245.89453125
+[2022-09-29 12:10:07,503][__main__][INFO] - val_loss: 63404.65234375
+[2022-09-29 12:10:07,745][__main__][INFO] - val_loss: 63533.79296875
+[2022-09-29 12:10:07,996][__main__][INFO] - val_loss: 63725.4375
+[2022-09-29 12:10:08,230][__main__][INFO] - val_loss: 63566.7578125
+[2022-09-29 12:10:08,473][__main__][INFO] - val_loss: 63355.7734375
+[2022-09-29 12:10:08,709][__main__][INFO] - val_loss: 63840.65625
+[2022-09-29 12:10:08,951][__main__][INFO] - val_loss: 62662.390625
+[2022-09-29 12:10:09,193][__main__][INFO] - val_loss: 63497.35546875
+[2022-09-29 12:10:09,442][__main__][INFO] - val_loss: 63241.3203125
+[2022-09-29 12:10:09,701][__main__][INFO] - val_loss: 63110.35546875
+[2022-09-29 12:10:09,939][__main__][INFO] - val_loss: 63498.9453125
+[2022-09-29 12:10:10,176][__main__][INFO] - val_loss: 63714.0
+[2022-09-29 12:10:10,418][__main__][INFO] - val_loss: 63527.76171875
+[2022-09-29 12:10:10,653][__main__][INFO] - val_loss: 62761.3671875
+[2022-09-29 12:10:10,891][__main__][INFO] - val_loss: 63196.6875
+[2022-09-29 12:10:11,126][__main__][INFO] - val_loss: 63276.38671875
+[2022-09-29 12:10:11,365][__main__][INFO] - val_loss: 63273.5859375
+[2022-09-29 12:10:11,610][__main__][INFO] - val_loss: 63178.5546875
+[2022-09-29 12:10:11,860][__main__][INFO] - val_loss: 63562.96875
+[2022-09-29 12:10:12,104][__main__][INFO] - val_loss: 62889.21484375
+[2022-09-29 12:10:12,349][__main__][INFO] - val_loss: 63542.71484375
+[2022-09-29 12:10:12,594][__main__][INFO] - val_loss: 63268.4453125
+[2022-09-29 12:10:12,833][__main__][INFO] - val_loss: 63633.23046875
+[2022-09-29 12:10:13,072][__main__][INFO] - val_loss: 63168.890625
+[2022-09-29 12:10:13,316][__main__][INFO] - val_loss: 63165.01953125
+[2022-09-29 12:10:13,559][__main__][INFO] - val_loss: 63620.63671875
+[2022-09-29 12:10:13,793][__main__][INFO] - val_loss: 63457.9296875
+[2022-09-29 12:10:13,939][__main__][INFO] - create_latent_vecs....

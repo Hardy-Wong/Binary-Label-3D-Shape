@@ -1,0 +1,8 @@
+hydra:
+  run:
+    dir: /work/artifact/morphing_animation/${now:%Y-%m-%d}/${now:%H-%M-%S}_${oc.env:GIT_COMMIT_HASH,none-select}
+
+data_dir: "/work/artifact/morphing/2022-10-27/13-33-52_465c03a3f3663f789865c397ea883a55472874af"
+frame_skip_rate_num: 1
+title: "case050->case090"
+save_file_name: "morphing"

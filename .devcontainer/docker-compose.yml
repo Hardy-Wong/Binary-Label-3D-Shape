@@ -1,0 +1,27 @@
+version: '3.2'
+services:
+  py_rimd:
+    build: .
+    tty: true
+    volumes:
+      - ~/V-ATLAS/Data:/work/
+      - ../src:/work/src
+      - ../artifact:/work/artifact
+      - ../wandb:/work/wandb
+      - .:/work/.devcontainer
+      - /etc/passwd:/etc/passwd:ro
+      - /etc/group:/etc/group:ro
+    # GPUを使用する場合は以下をコメントイン
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - 'driver': 'nvidia'
+    #           'capabilities': [ 'gpu' ]
+    environment:
+      NVIDIA_VISIBLE_DEVICES: all # 追加
+      NVIDIA_DRIVER_CAPABILITIES: all # 追加
+      WANDB_API_KEY: "296c290293a75ba59cc15ac1d3a7a8a3252068b3"
+      PYTHONPATH: /work
+    working_dir: /work
+    # dns: 8.8.8.8

@@ -1,0 +1,13 @@
+hydra:
+  run:
+    dir: /work/artifact/DGandPositionFeature/${now:%Y-%m-%d}/${now:%H-%M-%S}_${oc.env:GIT_COMMIT_HASH,none-select}
+  sweep:
+    dir: /work/artifact/DGandPositionFeature/${now:%Y-%m-%d}/${now:%H-%M-%S}_${oc.env:GIT_COMMIT_HASH,none-select}
+    subdir: ${hydra.job.override_dirname}
+
+target_organ: "liver"
+commit_id: ${oc.env:GIT_COMMIT_HASH,none-select}
+data_dir: "/work/3D-CT PLY"
+template_path: "/work/3D-CT PLY/${target_organ}.ply"
+
+debug_mode: True

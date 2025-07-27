@@ -1,0 +1,9 @@
+3D-CT PLY/*
+test_list.txt
+train_list.txt
+*/__pycache__/*
+*/*.egg-info/*
+*.ply
+wandb/*
+artifact/*
+*.pyc

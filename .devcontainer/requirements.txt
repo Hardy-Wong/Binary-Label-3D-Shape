@@ -1,0 +1,26 @@
+numpy
+scipy
+sklearn
+torch
+pytorch-lightning
+torchsummary
+open3d
+trimesh
+tqdm
+# for formatting
+flake8
+black
+isort
+# mypy
+mypy
+# notebook
+ipykernel
+
+# test
+pytest
+# logging
+wandb
+# param handling
+hydra-core
+# multi-processing
+pathos

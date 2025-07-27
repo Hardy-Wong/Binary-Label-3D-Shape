@@ -1,0 +1,12 @@
+hydra:
+  run:
+    dir: /work/artifact/latent_distribution/${now:%Y-%m-%d}/${now:%H-%M-%S}_${oc.env:GIT_COMMIT_HASH,none-select}
+
+data_dirs:
+  -  "/work/artifact/mesh_vae/liver/2022-10-27/13-27-56_465c03a3f3663f789865c397ea883a55472874af/latent_vecs/test"
+annotate_with_case_id: true
+morphing_animation: false
+morphing_start_case_id: "case050"
+morphing_end_case_id: "case090"
+interpolate_num: 80
+frame_skip_rate_num: 1
