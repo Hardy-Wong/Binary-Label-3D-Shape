@@ -48,11 +48,11 @@ The following topics will be explained:
 6. Morphing
 
 ## Environment
-Windows Subsystem for Linux 2 (WSL)
-Ubuntu 20.04.6
-cuda 11.8
-Python 3.9.16
-pyenv 2.3.17-9-g528d10e9 (to create virtual environment)
-direnv v2.33.0
+Windows Subsystem for Linux 2 (WSL)  
+Ubuntu 20.04.6  
+cuda 11.8  
+Python 3.9.16  
+pyenv 2.3.17-9-g528d10e9 (to create virtual environment)  
+direnv v2.33.0  
 
 In this project, we use ```hydra``` instead of Python's standard library ```argparse``` for managing program arguments. ```hydra``` reads configuration files written in ```yaml``` notation (located in ```src/conf``` in this project) and makes them available to the program. In addition, files and images output by programs executed with ```hydra``` are saved in a directory automatically created each time the program is executed, so there is no risk of accidentally overwriting results. ```hydra``` supports plugins, which are located in the ```src/hydra_plugins``` directory in this project. Specifically, when debug_mode=False is selected, the program will not execute unless ```git add``` and ```git commit``` are successfully completed each time. This allows for automatic logging of experiments on GitHub, enabling reproducible experiments.
