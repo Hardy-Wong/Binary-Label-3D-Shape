@@ -4,7 +4,7 @@ from typing import Tuple
 import numpy as np
 from registration import GlobalRotationRegisration, PointToPointICP
 
-from src.mesh.mesh import OrganMesh
+from mesh.mesh import OrganMesh
 
 
 class EvaluateReconstractionMethod(Enum):
